@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Majid Hussain</title>
+	<meta name="description" content="Blueprint: A basic template for a page stack navigation effect" />
+	<meta name="keywords" content="blueprint, template, html, css, page stack, 3d, perspective, navigation, menu" />
+	<meta name="author" content="Codrops" />
+	<link rel="shortcut icon" href="images/icon.png">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<script src="js/modernizr-custom.js"></script>
+</head>
+<body>
+	<nav class="pages-nav">
+		<div class="pages-nav__item"><a class="link link--page" href="#page-home">Home</a></div>
+		<div class="pages-nav__item"><a class="link link--page" href="#page-docu">Travel</a></div>
+		<div class="pages-nav__item"><a class="link link--page" href="#page-manuals">Photography</a></div>
+		<div class="pages-nav__item"><a class="link link--page" href="#page-contact">Contact</a></div>
+		<!--<div class="pages-nav__item"><a class="link link--page" href="#page-custom">Customization &amp; Settings</a></div>
+		<div class="pages-nav__item"><a class="link link--page" href="#page-training">Training</a></div>
+		<div class="pages-nav__item pages-nav__item--small"><a class="link link--page link--faded" href="#page-buy">Where to buy</a></div>
+		<div class="pages-nav__item pages-nav__item--small"><a class="link link--page link--faded" href="#page-blog">Blog &amp; News</a></div>
+		<div class="pages-nav__item"><a class="link link--page link--faded" href="#page-contact">Contact</a></div>-->
+		<div class="pages-nav__item pages-nav__item--social">
+			<a class="link link--social link--faded" href="https://www.twiter.com/iammajidzz"><i class="fa fa-twitter"></i><span class="text-hidden">Twitter</span></a>
+			<a class="link link--social link--faded" href="https://www.instagram.com/iammajidzz/"><i class="fa fa-instagram"></i><span class="text-hidden">Instagram</span></a>
+			<a class="link link--social link--faded" href="https://www.facebook.com/Majidzz"><i class="fa fa-facebook"></i><span class="text-hidden">Facebook</span></a>
+		</div>
+	</nav>
+	<div class="pages-stack">
+		<!-- page -->
+		<div class="page" id="page-home">
+			<!-- Blueprint header -->
+			<header class="bp-header cf">
+            <span class="bp-header__present">Majid Hussain</span>
+				<h1 class="bp-header__title">Hello</h1>
+			</header>
+			<img class="poster" src="images/7.jpg" width="750px"  alt="img01" />
+		</div>
+		<!-- /page -->
+		<div class="page" id="page-docu">
+			<header class="bp-header cf">
+				<h1 class="bp-header__title">Travel</h1>
+				<p class="info">
+					Unless you travel the world, you don't see yourself anywhere
+				</p>
+			</header>
+		</div>
+		<div class="page" id="page-manuals">
+			<header class="bp-header cf">
+				<h1 class="bp-header__title">Photography</h1>
+				<p class="info">
+					When we click something, we not only capture the moments but also the memories associated with it
+				</p>
+			</header>
+			<img class="topleftposter" src="images/8.jpg" alt="img02" />
+			<img class="topmiddleposter" src="images/7.jpg" alt="img02" />
+			<img class="toprightposter" src="images/9.jpg" alt="img02" />
+			<img class="leftposter" src="images/8.jpg" alt="img02" />
+			<img class="middleposter" src="images/7.jpg" alt="img02" />
+			<img class="rightposter" src="images/9.jpg" alt="img02" />
+		</div>
+		<div class="page" id="page-contact">
+			<header class="bp-header cf">
+				<h1 class="bp-header__title">Contact</h1>
+				<p class="info">
+					Majid Hussain<br>
+					A Web Developer and Travel Photographer
+				</p>
+			</header>
+			<img class="poster" src="images/7.jpg" alt="img04" />
+		</div>
+	</div>
+	<!-- /pages-stack -->
+	<button class="menu-button"><span>Menu</span></button>
+	<script src="js/classie.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
